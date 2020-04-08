@@ -1,0 +1,58 @@
+/* pages/main/main.wxss */
+
+
+.img-bg {
+    position: fixed;
+    /* 必须在 fixed 之后使用 */
+    /* 降低层级  使之在下层显示 */
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 812px;
+    filter: blur(10rpx);
+    /* 放大 1.2 倍 */
+    transform: scale(1.5);
+    
+}
+
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    /* background-size: cover; */
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+}
+
+.today {
+    padding-top: 50rpx;
+    height: 50%;
+}
+
+.info {
+    padding: 20px;
+    background-color: #ffffff;
+    /* 透明度 */
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.temp {
+    font-size: 50px;
+    text-align: center;
+}
+
+.weather {
+    font-size: 17px;
+    text-align: center;
+}
+
+.city {
+    margin-right: 10rpx;
+    margin-top: 30rpx;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: right;
+}

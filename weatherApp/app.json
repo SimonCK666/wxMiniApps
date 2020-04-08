@@ -1,13 +1,38 @@
 {
   "pages": [
+    "pages/main/main",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#00BFFF",
+    "navigationBarTitleText": "PiggyWeather",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "Home",
+      "iconPath": "icon/house.png",
+      "selectedIconPath": "icon/house.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "Home",
+        "iconPath": "icon/piggy-bank.png",
+        "selectedIconPath": "icon/piggy-bank.png"
+      }
+    ],
+    "color": "#fff",
+    "backgroundColor": "#FFFAFA",
+    "selectedColor": "#87CEFA"
+  },
+  "permission": {
+      "scope.userLocation": {
+          "desc": "Your location information will be used to display the effects of the applet location interface"
+    }
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

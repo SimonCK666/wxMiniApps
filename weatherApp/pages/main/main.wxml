@@ -1,0 +1,28 @@
+<!--pages/main/main.wxml-->
+
+<view class="content">
+    <view class="img-bg">
+        <image class="img-bg" src="http://img.juimg.com/tuku/yulantu/130803/328552-130P322002918.jpg" mode="aspectFit" lazy-load="false" />
+    </view>
+    <view class="today">
+        <view class="info">
+            <view class="temp">
+                25 ℃
+            </view>
+            <view class="weather">
+                Sunny Sorth-wind Level: 3~4
+            </view>
+            <view class="suggest">
+                Suggest: It is a sunny day. Good for going out. Have fun~
+            </view>
+            <view class="city">
+                California
+            </view>
+        </view>
+    </view>
+    <view class="future">
+        
+    </view>
+      
+</view>
+  
